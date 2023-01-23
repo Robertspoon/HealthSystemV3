@@ -10,6 +10,18 @@ namespace HealthSystemV3
     {
         public Enemy(int health, string name) : base (health, name)
         {
+            
+        }
+
+        public void EnemyStats()
+        {
+            ShowStat();
+        }
+
+        public void EnemyHeal(int hp)
+        {
+            
+
 
         }
     }

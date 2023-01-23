@@ -13,7 +13,7 @@ namespace HealthSystemV3
             Console.WriteLine("Health system V3" + " Now using inheritance");
 
             GameCharacter gameCharacter = new GameCharacter(100, "jeremy");
-            Player player = new Player(100,100,3,"Jeremy985");
+            Player player = new Player(100,100,3,1,0,"Jeremy985");
             Enemy enemy = new Enemy(50, "rat");
 
 
@@ -26,11 +26,11 @@ namespace HealthSystemV3
             Console.WriteLine();
             player.PlayerStats();
             Console.WriteLine();
-            enemy.ShowStat();
+            enemy.EnemyStats();
             enemy.TakeDamage(10);
             Console.WriteLine();
            
-            enemy.ShowStat();
+            enemy.EnemyStats();
 
 
             Console.ReadKey(true);

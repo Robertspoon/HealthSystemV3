@@ -34,8 +34,7 @@ namespace HealthSystemV3
         public void ShowStat()
         {
             Console.WriteLine("Name: " + name);
-            Console.WriteLine("Health: " + health);
-            
+            Console.WriteLine("Health: " + health);           
             
         }
     }

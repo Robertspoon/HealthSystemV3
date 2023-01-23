@@ -10,12 +10,16 @@ namespace HealthSystemV3
     {
         public int shield;
         public int lives;
+        public int exp;
+        public int level;
 
 
-        public Player(int health, int shield, int lives, string name) : base (health,name)
+        public Player(int health, int shield, int lives,int level,int exp, string name) : base (health,name)
         {
             this.shield = shield;
             this.lives = lives;
+            this.level = level;
+            this.exp = exp;
         }
 
         public void PlayerStats()
@@ -23,6 +27,8 @@ namespace HealthSystemV3
             ShowStat();
             Console.WriteLine("Shields: " + shield);
             Console.WriteLine("Lives: " + lives);
+            Console.WriteLine("Level: " + level);
+            Console.WriteLine("Exp: " + exp);
 
         }
     }
