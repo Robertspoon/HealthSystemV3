@@ -31,7 +31,7 @@ namespace HealthSystemV3
             if (health > 100) health = 100;
         }
 
-        public void ShowStat()
+        public void ShowStats()
         {
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Health: " + health);           

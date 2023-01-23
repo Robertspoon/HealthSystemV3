@@ -22,9 +22,9 @@ namespace HealthSystemV3
             this.exp = exp;
         }
 
-        public void PlayerStats()
+        public new void ShowStats()
         {
-            ShowStat();
+            base.ShowStats();
             Console.WriteLine("Shields: " + shield);
             Console.WriteLine("Lives: " + lives);
             Console.WriteLine("Level: " + level);

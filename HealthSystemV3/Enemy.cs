@@ -13,16 +13,8 @@ namespace HealthSystemV3
             
         }
 
-        public void EnemyStats()
-        {
-            ShowStat();
-        }
+       
 
-        public void EnemyHeal(int hp)
-        {
-            
-
-
-        }
+       
     }
 }

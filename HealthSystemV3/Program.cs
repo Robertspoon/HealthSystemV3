@@ -18,19 +18,19 @@ namespace HealthSystemV3
 
 
             Console.WriteLine();
-            player.PlayerStats();
+            player.ShowStats();
             player.TakeDamage(30);
             Console.WriteLine();
-            player.PlayerStats();
+            player.ShowStats();
             player.Heal(100);
             Console.WriteLine();
-            player.PlayerStats();
+            player.ShowStats();
             Console.WriteLine();
-            enemy.EnemyStats();
+            enemy.ShowStats();
             enemy.TakeDamage(10);
             Console.WriteLine();
            
-            enemy.EnemyStats();
+            enemy.ShowStats();
 
 
             Console.ReadKey(true);
